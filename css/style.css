@@ -1,23 +1,26 @@
 * {
     margin: 0px;
 }
+
 .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
     padding: 10px 0;
-  }
-  .social-icons {
+}
+
+.social-icons {
     text-align: right;
     padding-right: 55px;
-  }
-  .social-icons a {
+}
+
+.social-icons a {
     padding: 0 10px;
-  }
- 
-  
-  :root {
+}
+
+
+:root {
     --panel-bg-color: white;
     --container-bg-color: white;
     --text-color: black;
@@ -25,31 +28,41 @@
 
 :root[theme="dark"] {
     --panel-bg-color: black;
-    --container-bg-color:rgb(27, 26, 26);
+    --container-bg-color: rgb(27, 26, 26);
     --text-color: white;
 }
-body{
+
+body {
     color: var(--text-color);
     background-color: var(--container-bg-color);
 }
+
 nav {
     background-color: var(--panel-bg-color);
     color: var(--text-color);
 }
-nav div ul a {
+
+.nav-link  {
     color: var(--text-color);
     background-color: var(--container-bg-color);
-    
+
 }
-div{
+.navbar-brand {
+    color: var(--text-color);
+    background-color: var(--container-bg-color);
+
+}
+
+div {
     background-color: var(--container-bg-color);
     color: var(--text-color);
 }
-footer{
+
+footer {
     background-color: var(--panel-bg-color);
     color: var(--text-color);
 }
- footer a i{
-    color: var(--text-color);
- }
 
+footer a i {
+    color: var(--text-color);
+}

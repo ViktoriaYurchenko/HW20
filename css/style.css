@@ -1,3 +1,6 @@
+* {
+    margin: 0px;
+}
 .footer {
     position: fixed;
     left: 0;
@@ -10,9 +13,43 @@
     padding-right: 55px;
   }
   .social-icons a {
-    color: #000;
     padding: 0 10px;
   }
-  .social-icons a:hover {
-    color: #007bff;
-  }
+ 
+  
+  :root {
+    --panel-bg-color: white;
+    --container-bg-color: white;
+    --text-color: black;
+}
+
+:root[theme="dark"] {
+    --panel-bg-color: black;
+    --container-bg-color:rgb(27, 26, 26);
+    --text-color: white;
+}
+body{
+    color: var(--text-color);
+    background-color: var(--container-bg-color);
+}
+nav {
+    background-color: var(--panel-bg-color);
+    color: var(--text-color);
+}
+nav div ul a {
+    color: var(--text-color);
+    background-color: var(--container-bg-color);
+    
+}
+div{
+    background-color: var(--container-bg-color);
+    color: var(--text-color);
+}
+footer{
+    background-color: var(--panel-bg-color);
+    color: var(--text-color);
+}
+ footer a i{
+    color: var(--text-color);
+ }
+
